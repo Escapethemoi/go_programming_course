@@ -1,0 +1,13 @@
+package main
+
+import "fmt"
+import "math/rand"
+import "time"
+
+func main() {
+	aika := time.Now()
+	kello(aika.Format())
+	fmt.Println("Kello on", aika)
+	noppa := (rand.Intn(20))
+	fmt.Println("Heitit nopalla luvun", noppa)
+}
